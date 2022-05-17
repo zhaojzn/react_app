@@ -1,5 +1,5 @@
 import './App.css';
-
+import logo from './logo.png';
 
 const App = () => {
 
@@ -14,6 +14,7 @@ const App = () => {
         <h1 class="contentText">I am a student.</h1>
         </h1>
         <p1 class="contentPara">I am a student at Point Grey Secondary school</p1>
+        <img class="image" src={logo} alt="Logo"></img>
       </div>
     </div>
 

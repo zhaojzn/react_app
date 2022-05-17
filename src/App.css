@@ -47,9 +47,10 @@ div .contentPara{
 }
 
 .image{
-  position:absolute;
-  right:1290px;
-  top: 10px;
+  position: absolute;
+  width: 7%;
+  top: 0.05vw;
+  left: 0.1vw;
 }
 
 .corner{
