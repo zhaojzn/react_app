@@ -22,17 +22,17 @@ CONTENT PAGE
   padding: 200px 350px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: left;
-  font-size: 25px;
+  font-size: 1.5vw;
 }
 
 div .contentText{
-  font-size: 50px;
-  line-height: 30px ;
+  font-size: 4vw;
+  line-height: 30px;
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 s
 div .contentPara{
-  font-size: 20px;
+  font-size: 1vw;
   position: relative; top: 25px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
@@ -41,7 +41,7 @@ div .contentPara{
   text-align: right;
   background: white;
   color: black;
-  font-size: 15px;
+  font-size: 1vw;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
@@ -53,6 +53,6 @@ div .contentPara{
 }
 
 .corner{
-  padding: 25px 25px;
+  padding: 1vw 1vw;
 }
 
