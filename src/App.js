@@ -7,6 +7,7 @@ import github from './github.png';
 */
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Test from "./pages/Test";
 
 /*
 import { render } from "@testing-library/react";
@@ -23,6 +24,8 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
+        <Route path="/test" element={<Test/>}/>
+
       </Routes>
     </Router>
   );

@@ -17,8 +17,12 @@ export default function Home(){
                 <Link to='/about'>
                 <button className="button-27" onClick={run}>About</button>
                 </Link>
+                <Link to='/test'>
                 <button className="button-27">Work</button>
+                </Link>
+
             </div>
+            
             <div className="content">
         
             <h1 className ="contentText">Hello, I'm Jason.  
