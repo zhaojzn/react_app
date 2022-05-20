@@ -1,24 +1,32 @@
+import React from "react";
 import './App.css';
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+/*
 import logo from './logo.png';
+import github from './github.png';
+*/
+import Home from "./pages/Home";
+import About from "./pages/About";
+
+/*
+import { render } from "@testing-library/react";
+
+const run = () =>{
+  alert("work in progress");
+} 
+*/
+
 
 const App = () => {
-
   return (
-    <div className="App">
-      <div class="header">
-        <p1 class = "corner">Work</p1>
-        <p1 class = "corner">About</p1>
-      </div>
-      <div class="content">
-        <h1 class ="contentText">Hello, I'm Jason.
-        <h1 class="contentText">I am a student.</h1>
-        </h1>
-        <p1 class="contentPara">I am a student at Point Grey Secondary school</p1>
-        <img class="image" src={logo} alt="Logo"></img>
-      </div>
-    </div>
-
+    <Router basename="/react_app/">
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/about" element={<About/>}/>
+      </Routes>
+    </Router>
   );
-  
 }
+
+
 export default App;

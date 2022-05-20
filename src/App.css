@@ -3,23 +3,12 @@
   background-color: white;
 }
 
-.button {
-  background-color: white; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  
-}
 
 /*
 CONTENT PAGE
 */
 .content {
-  padding: 200px 350px;
+  padding: 10vw 30vw;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: left;
   font-size: 1.5vw;
@@ -27,17 +16,17 @@ CONTENT PAGE
 
 div .contentText{
   font-size: 4vw;
-  line-height: 30px;
+  line-height: 2vw;
   font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 div .contentPara{
   font-size: 1.5vw;
   position: relative; 
-  top: 25px;
+  bottom: 3vw;
   font-family:serif
 }
 .header{
-  padding: 15px;
+  padding: 1vw;
   text-align: right;
   background: white;
   color: black;
@@ -45,6 +34,8 @@ div .contentPara{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+
+
 
 .image{
   position: absolute;
@@ -56,4 +47,61 @@ div .contentPara{
 .corner{
   padding: 1vw 1vw;
 }
+
+
+.githubIcon{
+  position:relative;
+  width: 10%; 
+  top: 3vw;
+  right: 20vw;
+}
+
+
+/* CSS */
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  border-spacing: 500px;
+  line-height: normal;
+  margin-right: 20px;
+  min-height: 60px;
+  min-width: 30px;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 7%;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+
+
 
