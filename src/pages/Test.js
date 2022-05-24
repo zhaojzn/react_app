@@ -4,7 +4,7 @@ import axios from "axios";
 const fetchList = async () =>{
   const res = await axios.get("http://localhost:8080");
   console.log(res);
-  return res;
+  return res.data.message;
 }
 
 class Test extends React.Component {
@@ -24,11 +24,17 @@ class Test extends React.Component {
     
     componentDidMount() {
       this.interval = setInterval(() => this.tick(), 1000);
-      this.json = fetchList();
+      this.apiCall().then(result => this.setState({
+        json: result
+      }))
     }
   
     componentWillUnmount() {
       clearInterval(this.interval);
+    }
+
+    apiCall(){
+      return fetchList()
     }
   
     render() {
@@ -38,6 +44,7 @@ class Test extends React.Component {
           <br></br>
           Variable: {this.state.test}
           <br></br>
+          API: {this.state.json}
         </div>
       );
     }
