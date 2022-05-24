@@ -5,7 +5,7 @@ const app = express();
 var corsOptions = {
   origin: "http://localhost:8080"
 };
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", (req, res) => {

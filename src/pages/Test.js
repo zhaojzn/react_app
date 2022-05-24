@@ -2,7 +2,8 @@ import React from "react";
 import axios from "axios";
 
 const fetchList = async () =>{
-  const res = await axios.get("https://jsonplaceholder.typicode.com/todos/1");
+  const res = await axios.get("http://localhost:8080");
+  console.log(res);
   return res;
 }
 
