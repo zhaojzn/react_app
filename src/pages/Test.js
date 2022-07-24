@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 
 const fetchList = async () =>{
-  const res = await axios.get("https://192.168.1.154:8080");
+  const res = await axios.get("https://216.232.179.126:8080");
   console.log(res);
   return res.data.message;
 }
