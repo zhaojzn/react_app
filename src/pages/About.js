@@ -8,7 +8,7 @@ export default function About(){
             <Link to='/'>
                 <img className="image" src={logo} alt="Logo"></img>
             </Link>
-            <h1>About webpage</h1>
+            <h1 className="contentText">Hello.</h1>
         </div>
     );
 }

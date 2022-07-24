@@ -18,9 +18,10 @@ const run = () =>{
 */
 
 
+
 const App = () => {
   return (
-    <Router basename="/react_app/">
+    <Router basename="/react_app">
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
